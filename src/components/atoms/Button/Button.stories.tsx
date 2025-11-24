@@ -7,7 +7,7 @@ const meta = {
   parameters: {
     layout: 'centered',
   },
-  tags: ['autodocs'],
+  tags: ['autodocs'], // автоматическая генерация документации
   argTypes: {
     variant: { control: 'select', options: ['contained', 'outlined', 'text'] },
     color: { control: 'select', options: ['primary', 'secondary', 'error', 'info', 'success', 'warning'] },

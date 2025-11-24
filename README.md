@@ -1,4 +1,4 @@
-# @my-scope/ui-kit
+# @george-kunka/ui-kit
 
 Гибкая и расширяемая библиотека UI-компонентов, построенная на базе [MUI](https://mui.com/), [Tailwind CSS](https://tailwindcss.com/) и [React](https://react.dev/).
 
@@ -13,11 +13,11 @@
 ## Установка
 
 ```bash
-npm install @my-scope/ui-kit
+npm install @george-kunka/ui-kit
 # или
-yarn add @my-scope/ui-kit
+yarn add @george-kunka/ui-kit
 # или
-pnpm add @my-scope/ui-kit
+pnpm add @george-kunka/ui-kit
 ```
 
 Также убедитесь, что у вас установлены необходимые peer dependencies:
@@ -37,7 +37,7 @@ npm install react react-dom @mui/material @emotion/react @emotion/styled
 module.exports = {
   content: [
     "./src/**/*.{js,ts,jsx,tsx}",
-    "./node_modules/@my-scope/ui-kit/dist/**/*.{js,ts,jsx,tsx}" // Добавьте эту строку
+    "./node_modules/@george-kunka/ui-kit/dist/**/*.{js,ts,jsx,tsx}" // Добавьте эту строку
   ],
   // ...
 }
@@ -50,7 +50,7 @@ module.exports = {
 ```tsx
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { UiKitThemeProvider, Button } from '@my-scope/ui-kit';
+import { UiKitThemeProvider, Button } from '@george-kunka/ui-kit';
 
 const App = () => (
   <UiKitThemeProvider>

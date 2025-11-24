@@ -1,7 +1,7 @@
 # Project Context for AI Agents
 
 ## Project Overview
-This project is a flexible and extensible UI Kit library built with React, MUI, and Tailwind CSS. It is designed to be published as an npm package `@my-scope/ui-kit`.
+This project is a flexible and extensible UI Kit library built with React, MUI, and Tailwind CSS. It is designed to be published as an npm package `@george-kunka/ui-kit`.
 
 ## Tech Stack
 - **Framework**: React (v18/19)
