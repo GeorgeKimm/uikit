@@ -70,6 +70,29 @@ const App = () => (
 ReactDOM.createRoot(document.getElementById('root')!).render(<App />);
 ```
 
+### 3. Кастомизация темы (опционально)
+
+Если вам нужно переопределить стандартную тему, создайте свою тему с помощью `createTheme` из MUI и передайте её в `UiKitThemeProvider`:
+
+```tsx
+import { createTheme } from '@mui/material/styles';
+import { UiKitThemeProvider } from '@george-kunka/ui-kit';
+
+const customTheme = createTheme({
+  palette: {
+    primary: {
+      main: '#1976d2',
+    },
+  },
+});
+
+const App = () => (
+  <UiKitThemeProvider theme={customTheme}>
+    {/* ваше приложение */}
+  </UiKitThemeProvider>
+);
+```
+
 ## Разработка
 
 ### Запуск локально

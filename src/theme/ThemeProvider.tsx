@@ -1,6 +1,6 @@
 import React from 'react';
 import { ThemeProvider as MuiThemeProvider, type Theme } from '@mui/material/styles';
-import { theme as defaultTheme } from './theme';
+import { defaultTheme } from './defaultTheme';
 
 interface UiKitThemeProviderProps {
   children: React.ReactNode;
